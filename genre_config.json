@@ -1,0 +1,14 @@
+{
+  "mode": "include",
+  "genres": [
+    "Pop",
+    "Hip-Hop",
+    "Hip Hop",
+    "R&B",
+    "RnB",
+    "Electronic",
+    "Dance"
+  ],
+  "includeUnknown": true,
+  "caseSensitive": false
+}

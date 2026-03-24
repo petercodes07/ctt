@@ -1,0 +1,26 @@
+{
+  "name": "tiktok-creative-center-scraper",
+  "version": "1.0.0",
+  "description": "Scrape trending music data from TikTok Creative Center",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "scrape": "node scraper.js",
+    "visualize": "node visualize.js",
+    "view": "node visualize.js"
+  },
+  "keywords": [
+    "tiktok",
+    "scraper",
+    "music",
+    "trends"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.3.1",
+    "playwright": "^1.50.1",
+    "puppeteer": "^24.15.1"
+  }
+}

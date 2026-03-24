@@ -1,0 +1,34 @@
+.DS_Store
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+
+# Build artifacts
+.build/
+.swiftpm/
+dist/
+build/
+*.app/
+*.dSYM/
+DerivedData/
+
+# Xcode user data
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Runtime output
+data/
+cache/
+tmp/
+*.log
+
+# Local secrets/runtime state
+.env
+.env.*
+cookies.txt
+
+# Local backups
+*.bak
